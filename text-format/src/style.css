@@ -1,0 +1,10 @@
+
+h1, p {font-family: Arial}
+
+h1, #undertitle {margin-block: 0}
+
+a {text-decoration: none}
+
+.content {text-align: justify}
+
+#undertitle {font-size: 14px}
