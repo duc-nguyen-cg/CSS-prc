@@ -1,0 +1,71 @@
+nav ul {
+    padding: 5px;
+    color: white;
+    background-color: grey;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 5px;
+}
+
+nav ul li:hover{
+    background-color: black;
+}
+
+nav ul li button {
+    position: relative;
+    float: right;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+}
+
+#body {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left{
+    width: 24%;
+    min-height: 400px;
+    float:left;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+
+#middle{
+    width: 50%;
+    min-height: 400px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#right{
+    width: 24.5%;
+    min-height: 400px;
+    float:right;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#footer {
+    height: 50px;
+    clear: both;
+    border: 1px solid grey;
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*    #left {width: 100%; float: left}*/
+/*    #middle {width: 100%; float: left}*/
+/*    #right {width: 100%; float: left}*/
+/*}*/
+
